@@ -1,0 +1,112 @@
+--Set Locals
+
+local InventorySearchBar = Instance.new("UICorner")
+local InventoryBar = Instance.new("UICorner")
+local Bar1 = Instance.new("UICorner")
+local Bar2 = Instance.new("UICorner")
+local Bar3 = Instance.new("UICorner")
+local Bar4 = Instance.new("UICorner")
+local Bar5 = Instance.new("UICorner")
+local Bar6 = Instance.new("UICorner")
+local Bar7 = Instance.new("UICorner")
+local Bar8 = Instance.new("UICorner")
+local Bar9 = Instance.new("UICorner")
+local Bar10 = Instance.new("UICorner")
+
+--Modernizing Toolbars
+
+Bar1.Parent = game.CoreGui.RobloxGui.Backpack.Hotbar["1"]
+game.CoreGui.RobloxGui.Backpack.Hotbar["1"].Number.TextSize = 19
+game.CoreGui.RobloxGui.Backpack.Hotbar["1"].Number.Position = UDim2.new(0, 2), UDim2.new(0, 0)
+game.CoreGui.RobloxGui.Backpack.Hotbar["1"].Number.Size = UDim2.new(0, 17), UDim2.new(0, 0)
+game.CoreGui.RobloxGui.Backpack.Hotbar["1"].Number.TextYAlignment = Enum.TextYAlignment.Top
+game.CoreGui.RobloxGui.Backpack.Hotbar["1"].ToolName.TextSize = 19
+
+Bar2.Parent = game.CoreGui.RobloxGui.Backpack.Hotbar["2"]
+game.CoreGui.RobloxGui.Backpack.Hotbar["2"].Number.TextSize = 19
+game.CoreGui.RobloxGui.Backpack.Hotbar["2"].Number.Position = UDim2.new(0, 2), UDim2.new(0, 0)
+game.CoreGui.RobloxGui.Backpack.Hotbar["2"].Number.Size = UDim2.new(0, 17), UDim2.new(0, 0)
+game.CoreGui.RobloxGui.Backpack.Hotbar["2"].Number.TextYAlignment = Enum.TextYAlignment.Top
+game.CoreGui.RobloxGui.Backpack.Hotbar["2"].ToolName.TextSize = 19
+
+Bar3.Parent = game.CoreGui.RobloxGui.Backpack.Hotbar["3"]
+game.CoreGui.RobloxGui.Backpack.Hotbar["3"].Number.TextSize = 19
+game.CoreGui.RobloxGui.Backpack.Hotbar["3"].Number.Position = UDim2.new(0, 2), UDim2.new(0, 0)
+game.CoreGui.RobloxGui.Backpack.Hotbar["3"].Number.Size = UDim2.new(0, 17), UDim2.new(0, 0)
+game.CoreGui.RobloxGui.Backpack.Hotbar["3"].Number.TextYAlignment = Enum.TextYAlignment.Top
+game.CoreGui.RobloxGui.Backpack.Hotbar["3"].ToolName.TextSize = 19
+
+Bar4.Parent = game.CoreGui.RobloxGui.Backpack.Hotbar["4"]
+game.CoreGui.RobloxGui.Backpack.Hotbar["4"].Number.TextSize = 19
+game.CoreGui.RobloxGui.Backpack.Hotbar["4"].Number.Position = UDim2.new(0, 2), UDim2.new(0, 0)
+game.CoreGui.RobloxGui.Backpack.Hotbar["4"].Number.Size = UDim2.new(0, 17), UDim2.new(0, 0)
+game.CoreGui.RobloxGui.Backpack.Hotbar["4"].Number.TextYAlignment = Enum.TextYAlignment.Top
+game.CoreGui.RobloxGui.Backpack.Hotbar["4"].ToolName.TextSize = 19
+
+Bar5.Parent = game.CoreGui.RobloxGui.Backpack.Hotbar["5"]
+game.CoreGui.RobloxGui.Backpack.Hotbar["5"].Number.TextSize = 19
+game.CoreGui.RobloxGui.Backpack.Hotbar["5"].Number.Position = UDim2.new(0, 2), UDim2.new(0, 0)
+game.CoreGui.RobloxGui.Backpack.Hotbar["5"].Number.Size = UDim2.new(0, 17), UDim2.new(0, 0)
+game.CoreGui.RobloxGui.Backpack.Hotbar["5"].Number.TextYAlignment = Enum.TextYAlignment.Top
+game.CoreGui.RobloxGui.Backpack.Hotbar["5"].ToolName.TextSize = 19
+
+Bar6.Parent = game.CoreGui.RobloxGui.Backpack.Hotbar["6"]
+game.CoreGui.RobloxGui.Backpack.Hotbar["6"].Number.TextSize = 19
+game.CoreGui.RobloxGui.Backpack.Hotbar["6"].Number.Position = UDim2.new(0, 2), UDim2.new(0, 0)
+game.CoreGui.RobloxGui.Backpack.Hotbar["6"].Number.Size = UDim2.new(0, 17), UDim2.new(0, 0)
+game.CoreGui.RobloxGui.Backpack.Hotbar["6"].Number.TextYAlignment = Enum.TextYAlignment.Top
+game.CoreGui.RobloxGui.Backpack.Hotbar["6"].ToolName.TextSize = 19
+
+Bar7.Parent = game.CoreGui.RobloxGui.Backpack.Hotbar["7"]
+game.CoreGui.RobloxGui.Backpack.Hotbar["7"].Number.TextSize = 19
+game.CoreGui.RobloxGui.Backpack.Hotbar["7"].Number.Position = UDim2.new(0, 2), UDim2.new(0, 0)
+game.CoreGui.RobloxGui.Backpack.Hotbar["7"].Number.Size = UDim2.new(0, 17), UDim2.new(0, 0)
+game.CoreGui.RobloxGui.Backpack.Hotbar["7"].Number.TextYAlignment = Enum.TextYAlignment.Top
+game.CoreGui.RobloxGui.Backpack.Hotbar["7"].ToolName.TextSize = 19
+
+Bar8.Parent = game.CoreGui.RobloxGui.Backpack.Hotbar["8"]
+game.CoreGui.RobloxGui.Backpack.Hotbar["8"].Number.TextSize = 19
+game.CoreGui.RobloxGui.Backpack.Hotbar["8"].Number.Position = UDim2.new(0, 2), UDim2.new(0, 0)
+game.CoreGui.RobloxGui.Backpack.Hotbar["8"].Number.Size = UDim2.new(0, 17), UDim2.new(0, 0)
+game.CoreGui.RobloxGui.Backpack.Hotbar["8"].Number.TextYAlignment = Enum.TextYAlignment.Top
+game.CoreGui.RobloxGui.Backpack.Hotbar["8"].ToolName.TextSize = 19
+
+Bar9.Parent = game.CoreGui.RobloxGui.Backpack.Hotbar["9"]
+game.CoreGui.RobloxGui.Backpack.Hotbar["9"].Number.TextSize = 19
+game.CoreGui.RobloxGui.Backpack.Hotbar["9"].Number.Position = UDim2.new(0, 2), UDim2.new(0, 0)
+game.CoreGui.RobloxGui.Backpack.Hotbar["9"].Number.Size = UDim2.new(0, 17), UDim2.new(0, 0)
+game.CoreGui.RobloxGui.Backpack.Hotbar["9"].Number.TextYAlignment = Enum.TextYAlignment.Top
+game.CoreGui.RobloxGui.Backpack.Hotbar["9"].ToolName.TextSize = 19
+
+Bar10.Parent = game.CoreGui.RobloxGui.Backpack.Hotbar["10"]
+game.CoreGui.RobloxGui.Backpack.Hotbar["10"].Number.TextSize = 19
+game.CoreGui.RobloxGui.Backpack.Hotbar["10"].Number.Position = UDim2.new(0, 2), UDim2.new(0, 0)
+game.CoreGui.RobloxGui.Backpack.Hotbar["10"].Number.Size = UDim2.new(0, 17), UDim2.new(0, 0)
+game.CoreGui.RobloxGui.Backpack.Hotbar["10"].Number.TextYAlignment = Enum.TextYAlignment.Top
+game.CoreGui.RobloxGui.Backpack.Hotbar["10"].ToolName.TextSize = 19
+
+--Adding Storage UICorner
+
+InventoryBar.Parent = game.CoreGui.RobloxGui.Backpack.Inventory
+
+--Adding Storage Search Bar UICorner
+
+InventorySearchBar.Parent = game.CoreGui.RobloxGui.Backpack.Inventory.Search
+
+--Adding Textbox UICorner
+
+game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Search.TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+--Deleting Exit
+
+game.CoreGui.RobloxGui.Backpack.Inventory.Search.X:Destroy()
+
+--Setting InventorySearchBar Mods
+
+game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Search.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Search.BackgroundTransparency = 0
+
+--Setting Search TextBox Placeholders
+
+game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Search.TextBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+game:GetService("CoreGui").RobloxGui.Backpack.Inventory.Search.TextBox.PlaceholderText = Search
